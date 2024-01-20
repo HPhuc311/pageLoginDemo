@@ -90,7 +90,53 @@
 }
 
 /* RESPONSIVE */
-
+/* Màn hình máy tính */
+@media screen and (max-width: 1669px) {
+    .form_login .button_login{
+        width: 75%;
+    }
+}
+@media screen and (max-width: 1495px) {
+    .title{
+        width: 60%;
+    }
+    .form{
+        width: 40%;
+    }
+    .form_login .button_login{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 1395px) {
+    .title{
+        width: 60%;
+    }
+    .form{
+        width: 45%;
+    }
+    .form_login .button_login{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 1161px) {
+    .title{
+        width: 65%;
+    }
+    .form{
+        width: 45%;
+    }
+    .form_login .button_login{
+        width: 80%;
+    }
+    .form_login{
+        width: 65%;
+    }
+}
+@media screen and (max-width: 1074px) {
+    .form{
+        width: 50%;
+    }
+}
 /*Ipad ngang(1024 x 768)*/
 @media screen and (max-width: 1024px){
     .title {
